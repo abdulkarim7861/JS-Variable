@@ -1,3 +1,5 @@
+// VARIABLES FOR STRING  \\
+
 //Problem 1
 let username;
 console.log(`UserName: ${username}`) //undefined
@@ -35,3 +37,24 @@ document.write("<h1>Yah! I can write HTML content through JavaScript</h1>");
 //Problem 9 
 let design = `▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬`;
 alert(`${design}`)
+
+
+// VARIABLES FOR NUMBER  \\
+
+//Problem 1
+let ages = 19 ;
+alert(`My age is ${ages}`);
+
+//Problem 2
+let visterTime = 14;
+alert(`You have visited this site ${visterTime} times`);
+
+//Problem 3 
+let birthYear = 2003;
+document.write(`<h3>My Birth Year is ${birthYear}</h3> <br> Data type of declared variable is ${typeof(birthYear)}`);
+
+//Problem 4
+let visitorName = `John Doe`;
+let  productTitle = "T-shirt(s)";
+let quantity = 5;
+let statement = document.write(` <h2> ${visitorName} ordered ${quantity} ${productTitle} on XYZ Clothing store.</h2>`);
